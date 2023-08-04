@@ -1,0 +1,39 @@
+body{
+    background-image: url(./pexels-ylanite-koppens-776633.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border: 2px solid black ;
+    width: 450px;
+    height: 530px;
+    margin-left: 390px;
+    border-radius: 20px;
+    margin-top: 40px;
+
+      
+}
+.nera{
+    text-align: center;
+    /* padding: 10px; */
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+.name{
+    padding: 8px;
+    width: 300px;
+    border-radius: 15px;
+    border: none;
+    margin: 15px;
+}
+
+#signinBtn{  padding: 8px;
+    width:220px;
+    border-radius: 15px;
+    border: none;
+    color: blue;
+    
+}

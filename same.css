@@ -1,0 +1,332 @@
+body {
+    background: url(https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first-sec {
+    display: flex;
+}
+
+.content-section {
+    display: none;
+
+}
+
+#home-section {
+    display: block;
+}
+
+.pageproperty {
+    margin-left: 60px;
+}
+
+.side-bar {
+    border: 1px solid black;
+    width: 200px;
+    height: 601px;
+    background-color: rgb(50, 50, 50);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+ul li a {
+    color:white;
+    text-decoration: none;
+}
+
+.one {
+    margin-left: 60px;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: "Georgia";
+}
+.one::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: red;
+    position: absolute;
+    top: 300px;
+    left:50px;
+    /* bottom: 20px; */
+    /* left: 0;
+    bottom: -10px; */
+    transition: 0.3s;
+}
+
+.first-sec .side-bar ul .one:hover::after {
+    width: 80px;
+
+}
+
+.two {
+
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 25px;
+    font-family: "Georgia"
+
+}
+
+.two::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: red;
+    position: absolute;
+    top: 350px;
+    left:50px;
+    /* bottom: 20px; */
+    /* left: 0;
+    bottom: -10px; */
+    transition: 0.3s;
+}
+
+.first-sec .side-bar ul .two:hover::after {
+    width: 100px;
+
+}
+.three{
+
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 25px;
+    font-family: "Georgia"
+
+}
+.three::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: red;
+    position: absolute;
+    top: 395px;
+    left:50px;
+    /* bottom: 20px; */
+    /* left: 0;
+    bottom: -10px; */
+    transition: 0.3s;
+}
+
+.first-sec .side-bar ul .three:hover::after {
+    width: 100px;
+
+}
+
+.four{
+
+        margin-left: 50px;
+        font-size: 20px;
+        margin-top: 25px;
+        font-family: "Georgia"
+    
+    
+}
+.four::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: red;
+    position: absolute;
+    top: 445px;
+    left:50px;
+    /* bottom: 20px; */
+    /* left: 0;
+    bottom: -10px; */
+    transition: 0.3s;
+}
+
+.first-sec .side-bar ul .four:hover::after {
+    width: 100px;
+
+}
+
+.five{
+    
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 25px;
+    font-family: "Georgia"
+
+}
+.five::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: red;
+    position: absolute;
+    top: 495px;
+    left:50px;
+    /* bottom: 20px; */
+    /* left: 0;
+    bottom: -10px; */
+    transition: 0.3s;
+}
+
+.first-sec .side-bar ul .five:hover::after {
+    width: 70px;
+
+}
+.six{
+    
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 25px;
+    font-family: "Georgia"
+
+}
+.six::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: red;
+    position: absolute;
+    top: 540px;
+    left:50px;
+    /* bottom: 20px; */
+    /* left: 0;
+    bottom: -10px; */
+    transition: 0.3s;
+}
+
+.first-sec .side-bar ul .six:hover::after {
+    width: 100px;
+
+}
+
+.side-bar h2 {
+    color: darkgray;
+    margin-left: 10px;
+}
+
+.side-bar h3 {
+    color: darkgray;
+    margin-left: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#home-section {
+    /* width: 800px; */
+    margin-top: 250px;
+    margin-right: 120px;
+    text-align: center;
+    background-image: url(./istockphoto-1042153956-612x612-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.nera-two {
+    width: 1000px;
+    height: 601px;
+}
+
+.neraDiv h2 {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.neraDiv h3 {
+    margin-left: 60px;
+}
+
+.neraDiv p {
+    margin-left: 90px;
+
+}
+
+blockquote {
+    margin-top: 20px;
+}
+
+.my h1 {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.aa {
+    margin-top: 30px;
+    color: white;
+}
+
+.aaa {
+    margin-top: 25px;
+    color: white;
+}
+
+.aaaa {
+    margin-top: 25px;
+    color: white;
+}
+
+.aaaaa {
+    margin-top: 25px;
+    color: white;
+}
+
+.aaaaaa {
+    margin-top: 15px;
+    color: white;
+}
+
+
+
+/* .two:hover {
+    border-bottom: 2px solid pink;
+    transition: 0.3s eae;
+
+} */
+
+
+
+.ap {
+    color: red;
+}
+#contact-section{
+    margin-left: 150px;
+    margin-top: 150px;
+    color: darkgray;
+}
+em{
+    color: white;
+    text-shadow: 1px 0.5px
+}
+.neraDiv{
+    color: white;
+}
+.rk{
+    color: white;
+}
+.strong{
+    color: white;
+}
+.page{
+    color: white;
+}
+
+table{
+    color: white;
+    /* bac  kground-color: white; */
+}
+
+
+
